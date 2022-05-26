@@ -13,6 +13,7 @@ public class animal implements interface_class, interface_class_2 {
 
     int age;
     String name;
+    boolean mark;
 
     @Override
     public String getName() {
