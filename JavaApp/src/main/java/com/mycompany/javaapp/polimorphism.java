@@ -18,12 +18,22 @@ public class polimorphism {
     void decide() {
         System.out.println("Test polimorphism decide !!!");
     }
+    
+    void decide(int x) {
+        System.out.println("Test polimorphism decide !!!");
+    }
 
 }
 
 class child extends polimorphism {
 
+    @Override
     void decide() {
+        System.out.println("Test child decide !!!");
+    }
+    
+    @Override
+    void decide(int x) {
         System.out.println("Test child decide !!!");
     }
 

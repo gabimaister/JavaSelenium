@@ -9,6 +9,7 @@ package com.mycompany.javaapp;
  *
  * @author Gabriel
  */
+
 public class inheritance {
 
     protected String brand = "Ford";        // Vehicle attribute
@@ -43,8 +44,8 @@ class Car extends inheritance {
 
 
 class Wheels extends Car {
-
-    private String modelName2 = "Mustang";    // Car attribute
+    
+    protected String modelName2 = "Mustang";    // Car attribute
 
     public static void main(String[] args) {
 
@@ -58,4 +59,5 @@ class Wheels extends Car {
         System.out.println(myCar.brand + " " + myCar.modelName2);
     }
 }
+
 

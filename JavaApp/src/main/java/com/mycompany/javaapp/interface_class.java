@@ -16,4 +16,13 @@ public interface interface_class {
     
 }
 
+//// Interfata functional folosita cu Lambda
+//@FunctionalInterface
+//public interface Functional {
+//    void doSomething();
+//
+//    default void foo() {
+//        System.out.println("foo");
+//    }
+//}
 
